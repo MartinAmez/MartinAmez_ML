@@ -1,16 +1,6 @@
 import pandas as pd
 import spotipy
 
-from spotipy.oauth2 import SpotifyClientCredentials, SpotifyOAuth # used for Spotify API authentication
-
-
-
-# Initialize the Spotify authentication client
-auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
-
-# Create a Spotify object, for  requesting
-sp = spotipy.Spotify(auth_manager=auth_manager)
-
 
 def get_playlist_info(playlist_id):
     try:
