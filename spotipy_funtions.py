@@ -58,3 +58,9 @@ def create_playlist_df(playlist_dataframe, country):
 
     playlist_df = pd.DataFrame(playlist_data)
     return playlist_df
+
+# Create a function to retrieve the audio features of a song
+def get_audio_features(track_id):
+    # Retrieve the audio features of the song using the track_id
+    audio_features = sp.audio_features(track_id)
+    return audio_features[0] if audio_features else None
