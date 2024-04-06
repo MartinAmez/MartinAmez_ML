@@ -27,12 +27,12 @@ Additionally:
 - Determine the trend of my preferences.
 
 **Folders**
-data: with the 2 datasets
-data_sample: final dataset with labels
-img: with some images from web scraping
-steps: notebooks, datasets saved, and functions to obtain the data, trying models, clustering, and other experiments...
-model: best_model.pkl
-root: Guide project, readme, and abstract
+- data: with the 2 datasets
+- data_sample: final dataset with labels
+- img: with some images from web scraping
+- steps: notebooks, datasets saved, and functions to obtain the data, trying models, clustering, and other experiments...
+- model: best_model.pkl
+- root: Guide project, readme, and abstract
 
 **Bibliography**
 
